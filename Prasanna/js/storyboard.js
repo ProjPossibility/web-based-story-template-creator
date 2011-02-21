@@ -1,7 +1,7 @@
 /*
-    Document   : storyboard
-    Created on : Jul 20, 2010, 7:22:00 PM
-    Author     : dhaval
+    Document   : iNarrate
+    Created on : 2/19/2011
+    Author     : Prasanna, Allan, Vairavan
 */
 
 
@@ -12,6 +12,14 @@ $(document).ready(function(){
     var outline = null;
     var offset = null;
     var shape = "rect";
+    var image = new Array();
+    var imageNo = 0;
+
+		image[0] = "js/image1.jpg";
+		image[1] = "js/image2.jpg";
+		image[2] = "js/image3.jpg";
+		image[3] = "js/image4.jpg";
+		image[4] = "js/image5.jpg"; 
     
     //alert("asdf");
     var newPosition = function(e, ui){
@@ -202,8 +210,13 @@ $(document).ready(function(){
         $(".resizable").resizable(resizeOpts);
 
         $("#addImage").click(function(){
+        	imageNo = imageNo + 1;
+        	if(imageNo > 4)
+        	{
+        		imageNo = 0;
+        	}
             $("<img/>")
-            .attr("src", "C:\Users\rEx\Desktop\snuffles.jpg")
+            .attr("src", image[imageNo])
             .css("width", "100%")
             .css("height", "100%")
             .appendTo($("<div/>")
