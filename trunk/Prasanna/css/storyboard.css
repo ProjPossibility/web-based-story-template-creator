@@ -1,0 +1,496 @@
+/* 
+    Document   : storyboard
+    Created on : Jul 20, 2010, 7:22:00 PM
+    Author     : dhaval
+*/
+
+.outer1{
+    margin: 0 auto;
+    width: 900px;
+}
+
+@font-face { font-family: Delicious; src: url('../fonts/Delicious-Roman.otf'); }
+@font-face { font-family: Delicious; font-weight: bold; src: url('../fonts/Delicious-Bold.otf'); }
+
+.header{
+    padding-left: 20px;
+    font-family: Tangerine, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    
+}
+
+.close-label{
+    background: transparent none;
+}
+
+.editor-object-selected{
+    border: 1px solid red;
+}
+
+.resize-point{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    cursor: default;
+    background-color: black;
+}
+
+.resize-close{
+    background-color: black;
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+.resize-point-vertical{
+    vertical-align: middle;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    cursor: default;
+    background-color: black;
+}
+
+.clear-editor-object-selection{
+    border: none;
+}
+
+.editor-control-move{
+    cursor: move;
+    background-color: green;
+    padding: 2px;
+    font-size: 70%;
+    color:white;
+}
+
+.editor-control-resize{
+    cursor: pointer;
+    background-color: teal;
+    color:white;
+    padding: 2px;
+    font-size: 70%;
+}
+
+.editor-control-rotate{
+    cursor: pointer;
+    background-color: navy;
+    color:white;
+    padding: 2px;
+    font-size: 70%;
+}
+
+.editor-control-close{
+    cursor: pointer;
+    background-color: red;
+    padding: 2px;
+    font-size: 70%;
+    color:white;
+}
+
+.drawing-pad{
+    cursor: crosshair;
+    /*border: 1px solid red;*/
+}
+
+.header-note{
+    padding: 7px 0 0 7px;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+.buttons{
+    padding-bottom: 4px;
+}
+.ui-widget-content{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.draggable{
+    cursor: move;
+}
+
+.resizable{
+}
+
+button{
+    min-width: 70px;
+    padding: 3px;
+    font-family: verdana;
+    border: 1px solid #666000;
+}
+
+.transparent-label{
+    color: white;
+    background-color: white;
+    font-size: 70%;
+    padding: 2px;
+}
+
+
+.rotate-0{/* for Safari */-webkit-transform: rotate(0deg);/* for Firefox */-moz-transform: rotate(0deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-1{/* for Safari */-webkit-transform: rotate(1deg);/* for Firefox */-moz-transform: rotate(1deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-2{/* for Safari */-webkit-transform: rotate(2deg);/* for Firefox */-moz-transform: rotate(2deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-3{/* for Safari */-webkit-transform: rotate(3deg);/* for Firefox */-moz-transform: rotate(3deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-4{/* for Safari */-webkit-transform: rotate(4deg);/* for Firefox */-moz-transform: rotate(4deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-5{/* for Safari */-webkit-transform: rotate(5deg);/* for Firefox */-moz-transform: rotate(5deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-6{/* for Safari */-webkit-transform: rotate(6deg);/* for Firefox */-moz-transform: rotate(6deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-7{/* for Safari */-webkit-transform: rotate(7deg);/* for Firefox */-moz-transform: rotate(7deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-8{/* for Safari */-webkit-transform: rotate(8deg);/* for Firefox */-moz-transform: rotate(8deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-9{/* for Safari */-webkit-transform: rotate(9deg);/* for Firefox */-moz-transform: rotate(9deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-10{/* for Safari */-webkit-transform: rotate(10deg);/* for Firefox */-moz-transform: rotate(10deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-11{/* for Safari */-webkit-transform: rotate(11deg);/* for Firefox */-moz-transform: rotate(11deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-12{/* for Safari */-webkit-transform: rotate(12deg);/* for Firefox */-moz-transform: rotate(12deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-13{/* for Safari */-webkit-transform: rotate(13deg);/* for Firefox */-moz-transform: rotate(13deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-14{/* for Safari */-webkit-transform: rotate(14deg);/* for Firefox */-moz-transform: rotate(14deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-15{/* for Safari */-webkit-transform: rotate(15deg);/* for Firefox */-moz-transform: rotate(15deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-16{/* for Safari */-webkit-transform: rotate(16deg);/* for Firefox */-moz-transform: rotate(16deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-17{/* for Safari */-webkit-transform: rotate(17deg);/* for Firefox */-moz-transform: rotate(17deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-18{/* for Safari */-webkit-transform: rotate(18deg);/* for Firefox */-moz-transform: rotate(18deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-19{/* for Safari */-webkit-transform: rotate(19deg);/* for Firefox */-moz-transform: rotate(19deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-20{/* for Safari */-webkit-transform: rotate(20deg);/* for Firefox */-moz-transform: rotate(20deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-21{/* for Safari */-webkit-transform: rotate(21deg);/* for Firefox */-moz-transform: rotate(21deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-22{/* for Safari */-webkit-transform: rotate(22deg);/* for Firefox */-moz-transform: rotate(22deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-23{/* for Safari */-webkit-transform: rotate(23deg);/* for Firefox */-moz-transform: rotate(23deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-24{/* for Safari */-webkit-transform: rotate(24deg);/* for Firefox */-moz-transform: rotate(24deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-25{/* for Safari */-webkit-transform: rotate(25deg);/* for Firefox */-moz-transform: rotate(25deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-26{/* for Safari */-webkit-transform: rotate(26deg);/* for Firefox */-moz-transform: rotate(26deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-27{/* for Safari */-webkit-transform: rotate(27deg);/* for Firefox */-moz-transform: rotate(27deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-28{/* for Safari */-webkit-transform: rotate(28deg);/* for Firefox */-moz-transform: rotate(28deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-29{/* for Safari */-webkit-transform: rotate(29deg);/* for Firefox */-moz-transform: rotate(29deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-30{/* for Safari */-webkit-transform: rotate(30deg);/* for Firefox */-moz-transform: rotate(30deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-31{/* for Safari */-webkit-transform: rotate(31deg);/* for Firefox */-moz-transform: rotate(31deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-32{/* for Safari */-webkit-transform: rotate(32deg);/* for Firefox */-moz-transform: rotate(32deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-33{/* for Safari */-webkit-transform: rotate(33deg);/* for Firefox */-moz-transform: rotate(33deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-34{/* for Safari */-webkit-transform: rotate(34deg);/* for Firefox */-moz-transform: rotate(34deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-35{/* for Safari */-webkit-transform: rotate(35deg);/* for Firefox */-moz-transform: rotate(35deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-36{/* for Safari */-webkit-transform: rotate(36deg);/* for Firefox */-moz-transform: rotate(36deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-37{/* for Safari */-webkit-transform: rotate(37deg);/* for Firefox */-moz-transform: rotate(37deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-38{/* for Safari */-webkit-transform: rotate(38deg);/* for Firefox */-moz-transform: rotate(38deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-39{/* for Safari */-webkit-transform: rotate(39deg);/* for Firefox */-moz-transform: rotate(39deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-40{/* for Safari */-webkit-transform: rotate(40deg);/* for Firefox */-moz-transform: rotate(40deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-41{/* for Safari */-webkit-transform: rotate(41deg);/* for Firefox */-moz-transform: rotate(41deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-42{/* for Safari */-webkit-transform: rotate(42deg);/* for Firefox */-moz-transform: rotate(42deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-43{/* for Safari */-webkit-transform: rotate(43deg);/* for Firefox */-moz-transform: rotate(43deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-44{/* for Safari */-webkit-transform: rotate(44deg);/* for Firefox */-moz-transform: rotate(44deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-45{/* for Safari */-webkit-transform: rotate(45deg);/* for Firefox */-moz-transform: rotate(45deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-46{/* for Safari */-webkit-transform: rotate(46deg);/* for Firefox */-moz-transform: rotate(46deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-47{/* for Safari */-webkit-transform: rotate(47deg);/* for Firefox */-moz-transform: rotate(47deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-48{/* for Safari */-webkit-transform: rotate(48deg);/* for Firefox */-moz-transform: rotate(48deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-49{/* for Safari */-webkit-transform: rotate(49deg);/* for Firefox */-moz-transform: rotate(49deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-50{/* for Safari */-webkit-transform: rotate(50deg);/* for Firefox */-moz-transform: rotate(50deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-51{/* for Safari */-webkit-transform: rotate(51deg);/* for Firefox */-moz-transform: rotate(51deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-52{/* for Safari */-webkit-transform: rotate(52deg);/* for Firefox */-moz-transform: rotate(52deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-53{/* for Safari */-webkit-transform: rotate(53deg);/* for Firefox */-moz-transform: rotate(53deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-54{/* for Safari */-webkit-transform: rotate(54deg);/* for Firefox */-moz-transform: rotate(54deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-55{/* for Safari */-webkit-transform: rotate(55deg);/* for Firefox */-moz-transform: rotate(55deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-56{/* for Safari */-webkit-transform: rotate(56deg);/* for Firefox */-moz-transform: rotate(56deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-57{/* for Safari */-webkit-transform: rotate(57deg);/* for Firefox */-moz-transform: rotate(57deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-58{/* for Safari */-webkit-transform: rotate(58deg);/* for Firefox */-moz-transform: rotate(58deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-59{/* for Safari */-webkit-transform: rotate(59deg);/* for Firefox */-moz-transform: rotate(59deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-60{/* for Safari */-webkit-transform: rotate(60deg);/* for Firefox */-moz-transform: rotate(60deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-61{/* for Safari */-webkit-transform: rotate(61deg);/* for Firefox */-moz-transform: rotate(61deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-62{/* for Safari */-webkit-transform: rotate(62deg);/* for Firefox */-moz-transform: rotate(62deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-63{/* for Safari */-webkit-transform: rotate(63deg);/* for Firefox */-moz-transform: rotate(63deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-64{/* for Safari */-webkit-transform: rotate(64deg);/* for Firefox */-moz-transform: rotate(64deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-65{/* for Safari */-webkit-transform: rotate(65deg);/* for Firefox */-moz-transform: rotate(65deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-66{/* for Safari */-webkit-transform: rotate(66deg);/* for Firefox */-moz-transform: rotate(66deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-67{/* for Safari */-webkit-transform: rotate(67deg);/* for Firefox */-moz-transform: rotate(67deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-68{/* for Safari */-webkit-transform: rotate(68deg);/* for Firefox */-moz-transform: rotate(68deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-69{/* for Safari */-webkit-transform: rotate(69deg);/* for Firefox */-moz-transform: rotate(69deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-70{/* for Safari */-webkit-transform: rotate(70deg);/* for Firefox */-moz-transform: rotate(70deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-71{/* for Safari */-webkit-transform: rotate(71deg);/* for Firefox */-moz-transform: rotate(71deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-72{/* for Safari */-webkit-transform: rotate(72deg);/* for Firefox */-moz-transform: rotate(72deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-73{/* for Safari */-webkit-transform: rotate(73deg);/* for Firefox */-moz-transform: rotate(73deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-74{/* for Safari */-webkit-transform: rotate(74deg);/* for Firefox */-moz-transform: rotate(74deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-75{/* for Safari */-webkit-transform: rotate(75deg);/* for Firefox */-moz-transform: rotate(75deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-76{/* for Safari */-webkit-transform: rotate(76deg);/* for Firefox */-moz-transform: rotate(76deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-77{/* for Safari */-webkit-transform: rotate(77deg);/* for Firefox */-moz-transform: rotate(77deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-78{/* for Safari */-webkit-transform: rotate(78deg);/* for Firefox */-moz-transform: rotate(78deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-79{/* for Safari */-webkit-transform: rotate(79deg);/* for Firefox */-moz-transform: rotate(79deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-80{/* for Safari */-webkit-transform: rotate(80deg);/* for Firefox */-moz-transform: rotate(80deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-81{/* for Safari */-webkit-transform: rotate(81deg);/* for Firefox */-moz-transform: rotate(81deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-82{/* for Safari */-webkit-transform: rotate(82deg);/* for Firefox */-moz-transform: rotate(82deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-83{/* for Safari */-webkit-transform: rotate(83deg);/* for Firefox */-moz-transform: rotate(83deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-84{/* for Safari */-webkit-transform: rotate(84deg);/* for Firefox */-moz-transform: rotate(84deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-85{/* for Safari */-webkit-transform: rotate(85deg);/* for Firefox */-moz-transform: rotate(85deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-86{/* for Safari */-webkit-transform: rotate(86deg);/* for Firefox */-moz-transform: rotate(86deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-87{/* for Safari */-webkit-transform: rotate(87deg);/* for Firefox */-moz-transform: rotate(87deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-88{/* for Safari */-webkit-transform: rotate(88deg);/* for Firefox */-moz-transform: rotate(88deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-89{/* for Safari */-webkit-transform: rotate(89deg);/* for Firefox */-moz-transform: rotate(89deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-90{/* for Safari */-webkit-transform: rotate(90deg);/* for Firefox */-moz-transform: rotate(90deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);}
+.rotate-91{/* for Safari */-webkit-transform: rotate(91deg);/* for Firefox */-moz-transform: rotate(91deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-92{/* for Safari */-webkit-transform: rotate(92deg);/* for Firefox */-moz-transform: rotate(92deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-93{/* for Safari */-webkit-transform: rotate(93deg);/* for Firefox */-moz-transform: rotate(93deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-94{/* for Safari */-webkit-transform: rotate(94deg);/* for Firefox */-moz-transform: rotate(94deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-95{/* for Safari */-webkit-transform: rotate(95deg);/* for Firefox */-moz-transform: rotate(95deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-96{/* for Safari */-webkit-transform: rotate(96deg);/* for Firefox */-moz-transform: rotate(96deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-97{/* for Safari */-webkit-transform: rotate(97deg);/* for Firefox */-moz-transform: rotate(97deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-98{/* for Safari */-webkit-transform: rotate(98deg);/* for Firefox */-moz-transform: rotate(98deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-99{/* for Safari */-webkit-transform: rotate(99deg);/* for Firefox */-moz-transform: rotate(99deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-100{/* for Safari */-webkit-transform: rotate(100deg);/* for Firefox */-moz-transform: rotate(100deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-101{/* for Safari */-webkit-transform: rotate(101deg);/* for Firefox */-moz-transform: rotate(101deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-102{/* for Safari */-webkit-transform: rotate(102deg);/* for Firefox */-moz-transform: rotate(102deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-103{/* for Safari */-webkit-transform: rotate(103deg);/* for Firefox */-moz-transform: rotate(103deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-104{/* for Safari */-webkit-transform: rotate(104deg);/* for Firefox */-moz-transform: rotate(104deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-105{/* for Safari */-webkit-transform: rotate(105deg);/* for Firefox */-moz-transform: rotate(105deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-106{/* for Safari */-webkit-transform: rotate(106deg);/* for Firefox */-moz-transform: rotate(106deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-107{/* for Safari */-webkit-transform: rotate(107deg);/* for Firefox */-moz-transform: rotate(107deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-108{/* for Safari */-webkit-transform: rotate(108deg);/* for Firefox */-moz-transform: rotate(108deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-109{/* for Safari */-webkit-transform: rotate(109deg);/* for Firefox */-moz-transform: rotate(109deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-110{/* for Safari */-webkit-transform: rotate(110deg);/* for Firefox */-moz-transform: rotate(110deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-111{/* for Safari */-webkit-transform: rotate(111deg);/* for Firefox */-moz-transform: rotate(111deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-112{/* for Safari */-webkit-transform: rotate(112deg);/* for Firefox */-moz-transform: rotate(112deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-113{/* for Safari */-webkit-transform: rotate(113deg);/* for Firefox */-moz-transform: rotate(113deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-114{/* for Safari */-webkit-transform: rotate(114deg);/* for Firefox */-moz-transform: rotate(114deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-115{/* for Safari */-webkit-transform: rotate(115deg);/* for Firefox */-moz-transform: rotate(115deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-116{/* for Safari */-webkit-transform: rotate(116deg);/* for Firefox */-moz-transform: rotate(116deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-117{/* for Safari */-webkit-transform: rotate(117deg);/* for Firefox */-moz-transform: rotate(117deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-118{/* for Safari */-webkit-transform: rotate(118deg);/* for Firefox */-moz-transform: rotate(118deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-119{/* for Safari */-webkit-transform: rotate(119deg);/* for Firefox */-moz-transform: rotate(119deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-120{/* for Safari */-webkit-transform: rotate(120deg);/* for Firefox */-moz-transform: rotate(120deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-121{/* for Safari */-webkit-transform: rotate(121deg);/* for Firefox */-moz-transform: rotate(121deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-122{/* for Safari */-webkit-transform: rotate(122deg);/* for Firefox */-moz-transform: rotate(122deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-123{/* for Safari */-webkit-transform: rotate(123deg);/* for Firefox */-moz-transform: rotate(123deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-124{/* for Safari */-webkit-transform: rotate(124deg);/* for Firefox */-moz-transform: rotate(124deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-125{/* for Safari */-webkit-transform: rotate(125deg);/* for Firefox */-moz-transform: rotate(125deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-126{/* for Safari */-webkit-transform: rotate(126deg);/* for Firefox */-moz-transform: rotate(126deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-127{/* for Safari */-webkit-transform: rotate(127deg);/* for Firefox */-moz-transform: rotate(127deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-128{/* for Safari */-webkit-transform: rotate(128deg);/* for Firefox */-moz-transform: rotate(128deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-129{/* for Safari */-webkit-transform: rotate(129deg);/* for Firefox */-moz-transform: rotate(129deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-130{/* for Safari */-webkit-transform: rotate(130deg);/* for Firefox */-moz-transform: rotate(130deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-131{/* for Safari */-webkit-transform: rotate(131deg);/* for Firefox */-moz-transform: rotate(131deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-132{/* for Safari */-webkit-transform: rotate(132deg);/* for Firefox */-moz-transform: rotate(132deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-133{/* for Safari */-webkit-transform: rotate(133deg);/* for Firefox */-moz-transform: rotate(133deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-134{/* for Safari */-webkit-transform: rotate(134deg);/* for Firefox */-moz-transform: rotate(134deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-135{/* for Safari */-webkit-transform: rotate(135deg);/* for Firefox */-moz-transform: rotate(135deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-136{/* for Safari */-webkit-transform: rotate(136deg);/* for Firefox */-moz-transform: rotate(136deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-137{/* for Safari */-webkit-transform: rotate(137deg);/* for Firefox */-moz-transform: rotate(137deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-138{/* for Safari */-webkit-transform: rotate(138deg);/* for Firefox */-moz-transform: rotate(138deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-139{/* for Safari */-webkit-transform: rotate(139deg);/* for Firefox */-moz-transform: rotate(139deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-140{/* for Safari */-webkit-transform: rotate(140deg);/* for Firefox */-moz-transform: rotate(140deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-141{/* for Safari */-webkit-transform: rotate(141deg);/* for Firefox */-moz-transform: rotate(141deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-142{/* for Safari */-webkit-transform: rotate(142deg);/* for Firefox */-moz-transform: rotate(142deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-143{/* for Safari */-webkit-transform: rotate(143deg);/* for Firefox */-moz-transform: rotate(143deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-144{/* for Safari */-webkit-transform: rotate(144deg);/* for Firefox */-moz-transform: rotate(144deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-145{/* for Safari */-webkit-transform: rotate(145deg);/* for Firefox */-moz-transform: rotate(145deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-146{/* for Safari */-webkit-transform: rotate(146deg);/* for Firefox */-moz-transform: rotate(146deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-147{/* for Safari */-webkit-transform: rotate(147deg);/* for Firefox */-moz-transform: rotate(147deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-148{/* for Safari */-webkit-transform: rotate(148deg);/* for Firefox */-moz-transform: rotate(148deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-149{/* for Safari */-webkit-transform: rotate(149deg);/* for Firefox */-moz-transform: rotate(149deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-150{/* for Safari */-webkit-transform: rotate(150deg);/* for Firefox */-moz-transform: rotate(150deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-151{/* for Safari */-webkit-transform: rotate(151deg);/* for Firefox */-moz-transform: rotate(151deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-152{/* for Safari */-webkit-transform: rotate(152deg);/* for Firefox */-moz-transform: rotate(152deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-153{/* for Safari */-webkit-transform: rotate(153deg);/* for Firefox */-moz-transform: rotate(153deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-154{/* for Safari */-webkit-transform: rotate(154deg);/* for Firefox */-moz-transform: rotate(154deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-155{/* for Safari */-webkit-transform: rotate(155deg);/* for Firefox */-moz-transform: rotate(155deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-156{/* for Safari */-webkit-transform: rotate(156deg);/* for Firefox */-moz-transform: rotate(156deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-157{/* for Safari */-webkit-transform: rotate(157deg);/* for Firefox */-moz-transform: rotate(157deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-158{/* for Safari */-webkit-transform: rotate(158deg);/* for Firefox */-moz-transform: rotate(158deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-159{/* for Safari */-webkit-transform: rotate(159deg);/* for Firefox */-moz-transform: rotate(159deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-160{/* for Safari */-webkit-transform: rotate(160deg);/* for Firefox */-moz-transform: rotate(160deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-161{/* for Safari */-webkit-transform: rotate(161deg);/* for Firefox */-moz-transform: rotate(161deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-162{/* for Safari */-webkit-transform: rotate(162deg);/* for Firefox */-moz-transform: rotate(162deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-163{/* for Safari */-webkit-transform: rotate(163deg);/* for Firefox */-moz-transform: rotate(163deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-164{/* for Safari */-webkit-transform: rotate(164deg);/* for Firefox */-moz-transform: rotate(164deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-165{/* for Safari */-webkit-transform: rotate(165deg);/* for Firefox */-moz-transform: rotate(165deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-166{/* for Safari */-webkit-transform: rotate(166deg);/* for Firefox */-moz-transform: rotate(166deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-167{/* for Safari */-webkit-transform: rotate(167deg);/* for Firefox */-moz-transform: rotate(167deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-168{/* for Safari */-webkit-transform: rotate(168deg);/* for Firefox */-moz-transform: rotate(168deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-169{/* for Safari */-webkit-transform: rotate(169deg);/* for Firefox */-moz-transform: rotate(169deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-170{/* for Safari */-webkit-transform: rotate(170deg);/* for Firefox */-moz-transform: rotate(170deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-171{/* for Safari */-webkit-transform: rotate(171deg);/* for Firefox */-moz-transform: rotate(171deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-172{/* for Safari */-webkit-transform: rotate(172deg);/* for Firefox */-moz-transform: rotate(172deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-173{/* for Safari */-webkit-transform: rotate(173deg);/* for Firefox */-moz-transform: rotate(173deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-174{/* for Safari */-webkit-transform: rotate(174deg);/* for Firefox */-moz-transform: rotate(174deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-175{/* for Safari */-webkit-transform: rotate(175deg);/* for Firefox */-moz-transform: rotate(175deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-176{/* for Safari */-webkit-transform: rotate(176deg);/* for Firefox */-moz-transform: rotate(176deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-177{/* for Safari */-webkit-transform: rotate(177deg);/* for Firefox */-moz-transform: rotate(177deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-178{/* for Safari */-webkit-transform: rotate(178deg);/* for Firefox */-moz-transform: rotate(178deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-179{/* for Safari */-webkit-transform: rotate(179deg);/* for Firefox */-moz-transform: rotate(179deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-180{/* for Safari */-webkit-transform: rotate(180deg);/* for Firefox */-moz-transform: rotate(180deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);}
+.rotate-181{/* for Safari */-webkit-transform: rotate(181deg);/* for Firefox */-moz-transform: rotate(181deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-182{/* for Safari */-webkit-transform: rotate(182deg);/* for Firefox */-moz-transform: rotate(182deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-183{/* for Safari */-webkit-transform: rotate(183deg);/* for Firefox */-moz-transform: rotate(183deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-184{/* for Safari */-webkit-transform: rotate(184deg);/* for Firefox */-moz-transform: rotate(184deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-185{/* for Safari */-webkit-transform: rotate(185deg);/* for Firefox */-moz-transform: rotate(185deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-186{/* for Safari */-webkit-transform: rotate(186deg);/* for Firefox */-moz-transform: rotate(186deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-187{/* for Safari */-webkit-transform: rotate(187deg);/* for Firefox */-moz-transform: rotate(187deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-188{/* for Safari */-webkit-transform: rotate(188deg);/* for Firefox */-moz-transform: rotate(188deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-189{/* for Safari */-webkit-transform: rotate(189deg);/* for Firefox */-moz-transform: rotate(189deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-190{/* for Safari */-webkit-transform: rotate(190deg);/* for Firefox */-moz-transform: rotate(190deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-191{/* for Safari */-webkit-transform: rotate(191deg);/* for Firefox */-moz-transform: rotate(191deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-192{/* for Safari */-webkit-transform: rotate(192deg);/* for Firefox */-moz-transform: rotate(192deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-193{/* for Safari */-webkit-transform: rotate(193deg);/* for Firefox */-moz-transform: rotate(193deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-194{/* for Safari */-webkit-transform: rotate(194deg);/* for Firefox */-moz-transform: rotate(194deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-195{/* for Safari */-webkit-transform: rotate(195deg);/* for Firefox */-moz-transform: rotate(195deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-196{/* for Safari */-webkit-transform: rotate(196deg);/* for Firefox */-moz-transform: rotate(196deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-197{/* for Safari */-webkit-transform: rotate(197deg);/* for Firefox */-moz-transform: rotate(197deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-198{/* for Safari */-webkit-transform: rotate(198deg);/* for Firefox */-moz-transform: rotate(198deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-199{/* for Safari */-webkit-transform: rotate(199deg);/* for Firefox */-moz-transform: rotate(199deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-200{/* for Safari */-webkit-transform: rotate(200deg);/* for Firefox */-moz-transform: rotate(200deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-201{/* for Safari */-webkit-transform: rotate(201deg);/* for Firefox */-moz-transform: rotate(201deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-202{/* for Safari */-webkit-transform: rotate(202deg);/* for Firefox */-moz-transform: rotate(202deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-203{/* for Safari */-webkit-transform: rotate(203deg);/* for Firefox */-moz-transform: rotate(203deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-204{/* for Safari */-webkit-transform: rotate(204deg);/* for Firefox */-moz-transform: rotate(204deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-205{/* for Safari */-webkit-transform: rotate(205deg);/* for Firefox */-moz-transform: rotate(205deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-206{/* for Safari */-webkit-transform: rotate(206deg);/* for Firefox */-moz-transform: rotate(206deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-207{/* for Safari */-webkit-transform: rotate(207deg);/* for Firefox */-moz-transform: rotate(207deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-208{/* for Safari */-webkit-transform: rotate(208deg);/* for Firefox */-moz-transform: rotate(208deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-209{/* for Safari */-webkit-transform: rotate(209deg);/* for Firefox */-moz-transform: rotate(209deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-210{/* for Safari */-webkit-transform: rotate(210deg);/* for Firefox */-moz-transform: rotate(210deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-211{/* for Safari */-webkit-transform: rotate(211deg);/* for Firefox */-moz-transform: rotate(211deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-212{/* for Safari */-webkit-transform: rotate(212deg);/* for Firefox */-moz-transform: rotate(212deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-213{/* for Safari */-webkit-transform: rotate(213deg);/* for Firefox */-moz-transform: rotate(213deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-214{/* for Safari */-webkit-transform: rotate(214deg);/* for Firefox */-moz-transform: rotate(214deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-215{/* for Safari */-webkit-transform: rotate(215deg);/* for Firefox */-moz-transform: rotate(215deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-216{/* for Safari */-webkit-transform: rotate(216deg);/* for Firefox */-moz-transform: rotate(216deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-217{/* for Safari */-webkit-transform: rotate(217deg);/* for Firefox */-moz-transform: rotate(217deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-218{/* for Safari */-webkit-transform: rotate(218deg);/* for Firefox */-moz-transform: rotate(218deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-219{/* for Safari */-webkit-transform: rotate(219deg);/* for Firefox */-moz-transform: rotate(219deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-220{/* for Safari */-webkit-transform: rotate(220deg);/* for Firefox */-moz-transform: rotate(220deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-221{/* for Safari */-webkit-transform: rotate(221deg);/* for Firefox */-moz-transform: rotate(221deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-222{/* for Safari */-webkit-transform: rotate(222deg);/* for Firefox */-moz-transform: rotate(222deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-223{/* for Safari */-webkit-transform: rotate(223deg);/* for Firefox */-moz-transform: rotate(223deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-224{/* for Safari */-webkit-transform: rotate(224deg);/* for Firefox */-moz-transform: rotate(224deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-225{/* for Safari */-webkit-transform: rotate(225deg);/* for Firefox */-moz-transform: rotate(225deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-226{/* for Safari */-webkit-transform: rotate(226deg);/* for Firefox */-moz-transform: rotate(226deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-227{/* for Safari */-webkit-transform: rotate(227deg);/* for Firefox */-moz-transform: rotate(227deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-228{/* for Safari */-webkit-transform: rotate(228deg);/* for Firefox */-moz-transform: rotate(228deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-229{/* for Safari */-webkit-transform: rotate(229deg);/* for Firefox */-moz-transform: rotate(229deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-230{/* for Safari */-webkit-transform: rotate(230deg);/* for Firefox */-moz-transform: rotate(230deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-231{/* for Safari */-webkit-transform: rotate(231deg);/* for Firefox */-moz-transform: rotate(231deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-232{/* for Safari */-webkit-transform: rotate(232deg);/* for Firefox */-moz-transform: rotate(232deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-233{/* for Safari */-webkit-transform: rotate(233deg);/* for Firefox */-moz-transform: rotate(233deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-234{/* for Safari */-webkit-transform: rotate(234deg);/* for Firefox */-moz-transform: rotate(234deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-235{/* for Safari */-webkit-transform: rotate(235deg);/* for Firefox */-moz-transform: rotate(235deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-236{/* for Safari */-webkit-transform: rotate(236deg);/* for Firefox */-moz-transform: rotate(236deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-237{/* for Safari */-webkit-transform: rotate(237deg);/* for Firefox */-moz-transform: rotate(237deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-238{/* for Safari */-webkit-transform: rotate(238deg);/* for Firefox */-moz-transform: rotate(238deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-239{/* for Safari */-webkit-transform: rotate(239deg);/* for Firefox */-moz-transform: rotate(239deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-240{/* for Safari */-webkit-transform: rotate(240deg);/* for Firefox */-moz-transform: rotate(240deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-241{/* for Safari */-webkit-transform: rotate(241deg);/* for Firefox */-moz-transform: rotate(241deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-242{/* for Safari */-webkit-transform: rotate(242deg);/* for Firefox */-moz-transform: rotate(242deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-243{/* for Safari */-webkit-transform: rotate(243deg);/* for Firefox */-moz-transform: rotate(243deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-244{/* for Safari */-webkit-transform: rotate(244deg);/* for Firefox */-moz-transform: rotate(244deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-245{/* for Safari */-webkit-transform: rotate(245deg);/* for Firefox */-moz-transform: rotate(245deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-246{/* for Safari */-webkit-transform: rotate(246deg);/* for Firefox */-moz-transform: rotate(246deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-247{/* for Safari */-webkit-transform: rotate(247deg);/* for Firefox */-moz-transform: rotate(247deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-248{/* for Safari */-webkit-transform: rotate(248deg);/* for Firefox */-moz-transform: rotate(248deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-249{/* for Safari */-webkit-transform: rotate(249deg);/* for Firefox */-moz-transform: rotate(249deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-250{/* for Safari */-webkit-transform: rotate(250deg);/* for Firefox */-moz-transform: rotate(250deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-251{/* for Safari */-webkit-transform: rotate(251deg);/* for Firefox */-moz-transform: rotate(251deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-252{/* for Safari */-webkit-transform: rotate(252deg);/* for Firefox */-moz-transform: rotate(252deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-253{/* for Safari */-webkit-transform: rotate(253deg);/* for Firefox */-moz-transform: rotate(253deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-254{/* for Safari */-webkit-transform: rotate(254deg);/* for Firefox */-moz-transform: rotate(254deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-255{/* for Safari */-webkit-transform: rotate(255deg);/* for Firefox */-moz-transform: rotate(255deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-256{/* for Safari */-webkit-transform: rotate(256deg);/* for Firefox */-moz-transform: rotate(256deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-257{/* for Safari */-webkit-transform: rotate(257deg);/* for Firefox */-moz-transform: rotate(257deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-258{/* for Safari */-webkit-transform: rotate(258deg);/* for Firefox */-moz-transform: rotate(258deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-259{/* for Safari */-webkit-transform: rotate(259deg);/* for Firefox */-moz-transform: rotate(259deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-260{/* for Safari */-webkit-transform: rotate(260deg);/* for Firefox */-moz-transform: rotate(260deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-261{/* for Safari */-webkit-transform: rotate(261deg);/* for Firefox */-moz-transform: rotate(261deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-262{/* for Safari */-webkit-transform: rotate(262deg);/* for Firefox */-moz-transform: rotate(262deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-263{/* for Safari */-webkit-transform: rotate(263deg);/* for Firefox */-moz-transform: rotate(263deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-264{/* for Safari */-webkit-transform: rotate(264deg);/* for Firefox */-moz-transform: rotate(264deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-265{/* for Safari */-webkit-transform: rotate(265deg);/* for Firefox */-moz-transform: rotate(265deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-266{/* for Safari */-webkit-transform: rotate(266deg);/* for Firefox */-moz-transform: rotate(266deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-267{/* for Safari */-webkit-transform: rotate(267deg);/* for Firefox */-moz-transform: rotate(267deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-268{/* for Safari */-webkit-transform: rotate(268deg);/* for Firefox */-moz-transform: rotate(268deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-269{/* for Safari */-webkit-transform: rotate(269deg);/* for Firefox */-moz-transform: rotate(269deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-270{/* for Safari */-webkit-transform: rotate(270deg);/* for Firefox */-moz-transform: rotate(270deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);}
+.rotate-271{/* for Safari */-webkit-transform: rotate(271deg);/* for Firefox */-moz-transform: rotate(271deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-272{/* for Safari */-webkit-transform: rotate(272deg);/* for Firefox */-moz-transform: rotate(272deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-273{/* for Safari */-webkit-transform: rotate(273deg);/* for Firefox */-moz-transform: rotate(273deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-274{/* for Safari */-webkit-transform: rotate(274deg);/* for Firefox */-moz-transform: rotate(274deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-275{/* for Safari */-webkit-transform: rotate(275deg);/* for Firefox */-moz-transform: rotate(275deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-276{/* for Safari */-webkit-transform: rotate(276deg);/* for Firefox */-moz-transform: rotate(276deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-277{/* for Safari */-webkit-transform: rotate(277deg);/* for Firefox */-moz-transform: rotate(277deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-278{/* for Safari */-webkit-transform: rotate(278deg);/* for Firefox */-moz-transform: rotate(278deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-279{/* for Safari */-webkit-transform: rotate(279deg);/* for Firefox */-moz-transform: rotate(279deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-280{/* for Safari */-webkit-transform: rotate(280deg);/* for Firefox */-moz-transform: rotate(280deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-281{/* for Safari */-webkit-transform: rotate(281deg);/* for Firefox */-moz-transform: rotate(281deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-282{/* for Safari */-webkit-transform: rotate(282deg);/* for Firefox */-moz-transform: rotate(282deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-283{/* for Safari */-webkit-transform: rotate(283deg);/* for Firefox */-moz-transform: rotate(283deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-284{/* for Safari */-webkit-transform: rotate(284deg);/* for Firefox */-moz-transform: rotate(284deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-285{/* for Safari */-webkit-transform: rotate(285deg);/* for Firefox */-moz-transform: rotate(285deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-286{/* for Safari */-webkit-transform: rotate(286deg);/* for Firefox */-moz-transform: rotate(286deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-287{/* for Safari */-webkit-transform: rotate(287deg);/* for Firefox */-moz-transform: rotate(287deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-288{/* for Safari */-webkit-transform: rotate(288deg);/* for Firefox */-moz-transform: rotate(288deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-289{/* for Safari */-webkit-transform: rotate(289deg);/* for Firefox */-moz-transform: rotate(289deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-290{/* for Safari */-webkit-transform: rotate(290deg);/* for Firefox */-moz-transform: rotate(290deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-291{/* for Safari */-webkit-transform: rotate(291deg);/* for Firefox */-moz-transform: rotate(291deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-292{/* for Safari */-webkit-transform: rotate(292deg);/* for Firefox */-moz-transform: rotate(292deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-293{/* for Safari */-webkit-transform: rotate(293deg);/* for Firefox */-moz-transform: rotate(293deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-294{/* for Safari */-webkit-transform: rotate(294deg);/* for Firefox */-moz-transform: rotate(294deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-295{/* for Safari */-webkit-transform: rotate(295deg);/* for Firefox */-moz-transform: rotate(295deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-296{/* for Safari */-webkit-transform: rotate(296deg);/* for Firefox */-moz-transform: rotate(296deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-297{/* for Safari */-webkit-transform: rotate(297deg);/* for Firefox */-moz-transform: rotate(297deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-298{/* for Safari */-webkit-transform: rotate(298deg);/* for Firefox */-moz-transform: rotate(298deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-299{/* for Safari */-webkit-transform: rotate(299deg);/* for Firefox */-moz-transform: rotate(299deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-300{/* for Safari */-webkit-transform: rotate(300deg);/* for Firefox */-moz-transform: rotate(300deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-301{/* for Safari */-webkit-transform: rotate(301deg);/* for Firefox */-moz-transform: rotate(301deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-302{/* for Safari */-webkit-transform: rotate(302deg);/* for Firefox */-moz-transform: rotate(302deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-303{/* for Safari */-webkit-transform: rotate(303deg);/* for Firefox */-moz-transform: rotate(303deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-304{/* for Safari */-webkit-transform: rotate(304deg);/* for Firefox */-moz-transform: rotate(304deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-305{/* for Safari */-webkit-transform: rotate(305deg);/* for Firefox */-moz-transform: rotate(305deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-306{/* for Safari */-webkit-transform: rotate(306deg);/* for Firefox */-moz-transform: rotate(306deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-307{/* for Safari */-webkit-transform: rotate(307deg);/* for Firefox */-moz-transform: rotate(307deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-308{/* for Safari */-webkit-transform: rotate(308deg);/* for Firefox */-moz-transform: rotate(308deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-309{/* for Safari */-webkit-transform: rotate(309deg);/* for Firefox */-moz-transform: rotate(309deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-310{/* for Safari */-webkit-transform: rotate(310deg);/* for Firefox */-moz-transform: rotate(310deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-311{/* for Safari */-webkit-transform: rotate(311deg);/* for Firefox */-moz-transform: rotate(311deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-312{/* for Safari */-webkit-transform: rotate(312deg);/* for Firefox */-moz-transform: rotate(312deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-313{/* for Safari */-webkit-transform: rotate(313deg);/* for Firefox */-moz-transform: rotate(313deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-314{/* for Safari */-webkit-transform: rotate(314deg);/* for Firefox */-moz-transform: rotate(314deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-315{/* for Safari */-webkit-transform: rotate(315deg);/* for Firefox */-moz-transform: rotate(315deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-316{/* for Safari */-webkit-transform: rotate(316deg);/* for Firefox */-moz-transform: rotate(316deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-317{/* for Safari */-webkit-transform: rotate(317deg);/* for Firefox */-moz-transform: rotate(317deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-318{/* for Safari */-webkit-transform: rotate(318deg);/* for Firefox */-moz-transform: rotate(318deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-319{/* for Safari */-webkit-transform: rotate(319deg);/* for Firefox */-moz-transform: rotate(319deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-320{/* for Safari */-webkit-transform: rotate(320deg);/* for Firefox */-moz-transform: rotate(320deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-321{/* for Safari */-webkit-transform: rotate(321deg);/* for Firefox */-moz-transform: rotate(321deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-322{/* for Safari */-webkit-transform: rotate(322deg);/* for Firefox */-moz-transform: rotate(322deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-323{/* for Safari */-webkit-transform: rotate(323deg);/* for Firefox */-moz-transform: rotate(323deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-324{/* for Safari */-webkit-transform: rotate(324deg);/* for Firefox */-moz-transform: rotate(324deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-325{/* for Safari */-webkit-transform: rotate(325deg);/* for Firefox */-moz-transform: rotate(325deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-326{/* for Safari */-webkit-transform: rotate(326deg);/* for Firefox */-moz-transform: rotate(326deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-327{/* for Safari */-webkit-transform: rotate(327deg);/* for Firefox */-moz-transform: rotate(327deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-328{/* for Safari */-webkit-transform: rotate(328deg);/* for Firefox */-moz-transform: rotate(328deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-329{/* for Safari */-webkit-transform: rotate(329deg);/* for Firefox */-moz-transform: rotate(329deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-330{/* for Safari */-webkit-transform: rotate(330deg);/* for Firefox */-moz-transform: rotate(330deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-331{/* for Safari */-webkit-transform: rotate(331deg);/* for Firefox */-moz-transform: rotate(331deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-332{/* for Safari */-webkit-transform: rotate(332deg);/* for Firefox */-moz-transform: rotate(332deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-333{/* for Safari */-webkit-transform: rotate(333deg);/* for Firefox */-moz-transform: rotate(333deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-334{/* for Safari */-webkit-transform: rotate(334deg);/* for Firefox */-moz-transform: rotate(334deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-335{/* for Safari */-webkit-transform: rotate(335deg);/* for Firefox */-moz-transform: rotate(335deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-336{/* for Safari */-webkit-transform: rotate(336deg);/* for Firefox */-moz-transform: rotate(336deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-337{/* for Safari */-webkit-transform: rotate(337deg);/* for Firefox */-moz-transform: rotate(337deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-338{/* for Safari */-webkit-transform: rotate(338deg);/* for Firefox */-moz-transform: rotate(338deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-339{/* for Safari */-webkit-transform: rotate(339deg);/* for Firefox */-moz-transform: rotate(339deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-340{/* for Safari */-webkit-transform: rotate(340deg);/* for Firefox */-moz-transform: rotate(340deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-341{/* for Safari */-webkit-transform: rotate(341deg);/* for Firefox */-moz-transform: rotate(341deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-342{/* for Safari */-webkit-transform: rotate(342deg);/* for Firefox */-moz-transform: rotate(342deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-343{/* for Safari */-webkit-transform: rotate(343deg);/* for Firefox */-moz-transform: rotate(343deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-344{/* for Safari */-webkit-transform: rotate(344deg);/* for Firefox */-moz-transform: rotate(344deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-345{/* for Safari */-webkit-transform: rotate(345deg);/* for Firefox */-moz-transform: rotate(345deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-346{/* for Safari */-webkit-transform: rotate(346deg);/* for Firefox */-moz-transform: rotate(346deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-347{/* for Safari */-webkit-transform: rotate(347deg);/* for Firefox */-moz-transform: rotate(347deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-348{/* for Safari */-webkit-transform: rotate(348deg);/* for Firefox */-moz-transform: rotate(348deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-349{/* for Safari */-webkit-transform: rotate(349deg);/* for Firefox */-moz-transform: rotate(349deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-350{/* for Safari */-webkit-transform: rotate(350deg);/* for Firefox */-moz-transform: rotate(350deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-351{/* for Safari */-webkit-transform: rotate(351deg);/* for Firefox */-moz-transform: rotate(351deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-352{/* for Safari */-webkit-transform: rotate(352deg);/* for Firefox */-moz-transform: rotate(352deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-353{/* for Safari */-webkit-transform: rotate(353deg);/* for Firefox */-moz-transform: rotate(353deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-354{/* for Safari */-webkit-transform: rotate(354deg);/* for Firefox */-moz-transform: rotate(354deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-355{/* for Safari */-webkit-transform: rotate(355deg);/* for Firefox */-moz-transform: rotate(355deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-356{/* for Safari */-webkit-transform: rotate(356deg);/* for Firefox */-moz-transform: rotate(356deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-357{/* for Safari */-webkit-transform: rotate(357deg);/* for Firefox */-moz-transform: rotate(357deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-358{/* for Safari */-webkit-transform: rotate(358deg);/* for Firefox */-moz-transform: rotate(358deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-359{/* for Safari */-webkit-transform: rotate(359deg);/* for Firefox */-moz-transform: rotate(359deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.rotate-360{/* for Safari */-webkit-transform: rotate(360deg);/* for Firefox */-moz-transform: rotate(360deg);/* for Internet Explorer */filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
